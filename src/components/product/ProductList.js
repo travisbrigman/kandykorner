@@ -10,7 +10,7 @@ export const ProductList = () => {
 
     useEffect(() => {
         getProducts()
-    },[getProducts])
+    },[])
 
     return (
         <div className="products">

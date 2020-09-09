@@ -11,7 +11,7 @@ export const LocationList = () => {
     useEffect(() => {
         console.log("LocationList: Initial render before data")
         getLocations()
-    },[getLocations])
+    },[])
 
     return (
         <div className="locations">
